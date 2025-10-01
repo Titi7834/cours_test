@@ -6,4 +6,15 @@
     "test": "jest",
     "test:coverage": "jest --coverage"
   }
+  ,"jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "script.js"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
+  }
 }
